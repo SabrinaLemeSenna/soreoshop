@@ -3,11 +3,10 @@ import { connect } from 'react-redux'
 import { addToCart } from './actions/cartActions'
 
  class Home extends Component{
-    
     handleClick = (id)=>{
         this.props.addToCart(id); 
     }
-
+    
     render(){
         let itemList = this.props.items.map(item=>{
             return(
@@ -36,6 +35,8 @@ import { addToCart } from './actions/cartActions'
             </div>
         )
     }
+
+    
 }
 const mapStateToProps = (state)=>{
     return {
