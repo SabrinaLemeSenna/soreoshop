@@ -35,3 +35,18 @@
 .item-desc{
     align-self:center;
 }
+
+/* ------------NavBar------------ */
+
+.nav {
+    height: 160px;
+    font-family: 'Cormorant Unicase', serif;
+}
+
+.nav-wrapper img {
+    width: 50%;
+}
+
+.nav-wrapper ul {
+    padding-top: 30px;
+}

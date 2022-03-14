@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Carousel1 from '../images/carousel1.png';
+import Carousel2 from '../images/carousel2.png';
+import Carousel3 from '../images/carousel3.png';
 import { connect } from 'react-redux'
 import { addToCart } from './actions/cartActions'
 
@@ -21,16 +24,23 @@ import { addToCart } from './actions/cartActions'
                             <p>{item.desc}</p>
                             <p><b>Price: {item.price}$</b></p>
                         </div>
-                 </div>
+                 </div>                           
 
             )
         })
 
         return(
             <div className="container">
-                <h3 className="center">Our items</h3>
-                <div className="box">
-                    {itemList}
+                <div class="carousel">
+                    <a class="carousel-item" href="#two!">
+                        <img src={Carousel1}></img>
+                    </a>
+                    <a class="carousel-item" href="#three!">
+                        <img src={Carousel2}></img>
+                    </a>
+                    <a class="carousel-item" href="#four!">
+                        <img src={Carousel3}></img>
+                    </a>
                 </div>
             </div>
         )
