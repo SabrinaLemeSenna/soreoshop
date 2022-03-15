@@ -5,13 +5,12 @@ import { Link } from 'react-router-dom'
  const Navbar = ()=>{
     return(
         
-        <div>
             <nav class="nav">
                 <div class="nav-wrapper white">
                     <a href="#!" class="center brand-logo">
                         <img src={Logo}></img>
                     </a>
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons blue">menu</i></a>
                     <br/>
                     <ul class="hide-on-med-and-down">
                         <li><Link class="blue-text" to="/">Home</Link></li> <li><Link class="blue-text" to="/shop">Shop</Link></li>
@@ -23,16 +22,14 @@ import { Link } from 'react-router-dom'
                         <i className="material-icons">shopping_cart</i>
                         My cart
                     </Link>
+                    <ul class="sidenav" id="mobile-demo">
+                        <li><a href="sass.html">Sass</a></li>
+                        <li><a href="badges.html">Components</a></li>
+                        <li><a href="collapsible.html">Javascript</a></li>
+                        <li><a href="mobile.html">Mobile</a></li>
+                    </ul>
                 </div>
             </nav>
-
-            <ul class="sidenav" id="mobile-demo">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">Javascript</a></li>
-                <li><a href="mobile.html">Mobile</a></li>
-            </ul>
-        </div>
    
         
     )
