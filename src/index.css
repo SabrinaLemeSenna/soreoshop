@@ -39,7 +39,7 @@
 /* ------------NavBar------------ */
 
 .nav {
-    height: 160px;
+    height: 150px;
     font-family: 'Cormorant Unicase', serif;
 }
 
@@ -49,4 +49,8 @@
 
 .nav-wrapper ul {
     padding-top: 30px;
+}
+
+.test {
+    z-index: 1000px;
 }

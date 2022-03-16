@@ -22,7 +22,7 @@ class App extends Component {
                     <Route path="/aboutus" component={Aboutus}/>
                     <Route path="/contact" component={Contact}/>
                     <Route path="/cart" component={Cart}/>
-                  </Switch>
+                </Switch>
              </div>
        </BrowserRouter>
       
