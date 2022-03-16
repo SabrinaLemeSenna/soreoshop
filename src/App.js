@@ -7,7 +7,7 @@ import Workshops from './components/Workshops'
 import Aboutus from './components/Aboutus'
 import Contact from './components/Contact'
 import Cart from './components/Cart'
-import 'materialize-css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   render() {
