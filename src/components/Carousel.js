@@ -1,12 +1,12 @@
 import React from 'react';
 import CarouselComponent from 'react-bootstrap/Carousel';
-
 import Carousel1 from '../images/carousel1.png';
 import Carousel2 from '../images/carousel2.png';
 import Carousel3 from '../images/carousel3.png';
 
 
 const Carousel = () => (
+    <Carousel>
     <CarouselComponent fade>
         <CarouselComponent.Item>
             <img
@@ -30,6 +30,7 @@ const Carousel = () => (
             />
         </CarouselComponent.Item>
     </CarouselComponent>
+    </Carousel>
 );
 
 export default Carousel;
