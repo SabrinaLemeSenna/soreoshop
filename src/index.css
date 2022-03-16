@@ -38,15 +38,18 @@
 
 /* ------------NavBar------------ */
 
-.nav {
-    height: 150px;
+nav {
     font-family: 'Cormorant Unicase', serif;
 }
 
 .nav-wrapper img {
-    width: 50%;
+    width: 31%;
 }
 
-.nav-wrapper ul {
-    padding-top: 30px;
+nav {
+    background-color: transparent;
+}
+
+nav ul a {
+    color: gray;
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { addToCart } from './actions/cartActions'
 
- class Shop extends Component{
+ class Shop extends Component {
      handleClick = (id)=>{
         this.props.addToCart(id); 
     }
