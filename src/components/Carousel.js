@@ -6,7 +6,6 @@ import Carousel3 from '../images/carousel3.png';
 
 
 const Carousel = () => (
-    <Carousel>
     <CarouselComponent fade>
         <CarouselComponent.Item>
             <img
@@ -30,7 +29,6 @@ const Carousel = () => (
             />
         </CarouselComponent.Item>
     </CarouselComponent>
-    </Carousel>
 );
 
 export default Carousel;
