@@ -35,6 +35,16 @@
 .item-desc{
     align-self:center;
 }
+/* ------------GENERAL STYLES------------ */
+
+.title-container {
+    font-family: 'Cormorant Unicase', serif;
+    text-align: center;
+    color: rgb(92,92,92,1);
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
 /* ------------COMPONENTS------------ */
 
 /* ------------NavBar------------ */
@@ -61,10 +71,61 @@
 
 /* ------------HOME:Best Seller Section------------ */
 
-.best-seller-container {
+.best-seller-container {   
+    background-color: rgb(242,242,242,1);
+    padding-bottom: 60px;
+}
+
+/* ------------HOME:100% Handmade Section------------ */
+
+.handmade-container {
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.title-handmade {
     font-family: 'Cormorant Unicase', serif;
-    text-align: center;
     color: rgb(92,92,92,1);
-    margin-top: 70px;
-    margin-bottom: 40px;
+}
+
+.text-handmade1 {
+    color: rgb(210,163,145,1);
+    font-family: 'Darker Grotesque', serif;
+    padding-right: 20%;
+    text-align: left;
+    padding-top: 60px;
+    letter-spacing: 2px; 
+    font-size: 18px;
+}
+
+.text-handmade2 {
+    color: rgb(92,92,92,1);
+    font-family: 'Darker Grotesque', serif;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 30%;
+    letter-spacing: 2px; 
+    font-size: 18px;
+}
+
+/* ------------HOME: Workshops Section------------ */
+
+.workshops-container {
+    text-align: center;
+    background-color: rgb(242,242,242,1);
+    padding-bottom: 60px;
+}
+
+.workshop-container {
+    padding-bottom: 30px;;
+}
+
+/* ------------HOME: Behind the Scenes Section------------ */
+
+.behind-text {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    width: 40%;
 }
