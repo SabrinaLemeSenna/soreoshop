@@ -127,5 +127,16 @@
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
     font-size: 18px;
+    width: 70%;
+    color: rgb(92,92,92,1);
+}
+
+.signing {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
     width: 40%;
+    color: rgb(210,163,145,1);
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
