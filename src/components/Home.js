@@ -9,19 +9,19 @@ import Footer from './Footer';
 
 const Home = () => {
     return(
-        <Container>
+        <Container fluid>
             <Carousel />
-            <Container className='best-seller-container'>
-                <Container className='title-container'>
+            <Container fluid className='best-seller-container'>
+                <Container fluid className='title-container'>
                     <h1>Best Seller</h1>
                 </Container>
-                <Container className='d-flex justify-content-center justify-content-between'>
+                <Container fluid className='products-container d-flex justify-content-center justify-content-between'>
                         <Product />
                         <Product />
                         <Product />
                 </Container>
             </Container>
-            <Container className='handmade-container'>
+            <Container fluid className='handmade-container'>
                 <Container className='d-flex'>
                     <Container>
                         <Container className='title-handmade d-flex justify-content-end'>
@@ -37,7 +37,7 @@ const Home = () => {
                     <img src={HandmadePottery} alt="Pottery Wheel"></img>
                 </Container>
             </Container>
-            <Container className='workshops-container'>
+            <Container fluid className='workshops-container'>
                 <Container className='title-container'>
                     <h1>Workshops & Events</h1>
                 </Container>
@@ -48,7 +48,7 @@ const Home = () => {
                 </Container>
                 <Button variant="primary">Go somewhere</Button>
             </Container>
-            <Container className='behind-scenes-container'>
+            <Container fluid className='behind-scenes-container'>
                 <Container className='title-container'>
                     <h1>Behind the Scenes</h1>
                 </Container>

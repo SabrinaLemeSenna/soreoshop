@@ -61,16 +61,24 @@
 .footer {
     background-color: rgb(210,163,145,0.65);
     color: rgb(92,92,92,1);
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .footer h5 {
     font-family: 'Cormorant Unicase', serif;
+    text-align: center;
+}
+
+.footer ul {
+    text-align: center;
+    padding-left: 0%;
 }
 
 .footer p {
     font-family: 'Darker Grotesque', serif;
+    text-align: center;
+    padding-left: 0%;
 }
 
 .footer ul li {
@@ -78,9 +86,16 @@
     list-style: none;
 }
 
+.footer ul li a {
+    text-decoration: none;
+    color: rgb(92,92,92,1);
+}
+
 .white-footer {
     background-color: white;
-    padding: 10px;
+    padding: 5px;
+    font-family: 'Darker Grotesque', serif;
+    color: rgb(92,92,92,1);
 }
 
 /* ------------Products------------ */
@@ -91,12 +106,16 @@
 }
 
 /* ------------PAGES------------ */
-
 /* ------------HOME:Best Seller Section------------ */
 
 .best-seller-container {   
     background-color: rgb(242,242,242,1);
     padding-bottom: 60px;
+}
+
+.products-container {
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 /* ------------HOME:100% Handmade Section------------ */
@@ -141,7 +160,9 @@
 }
 
 .workshop-container {
-    padding-bottom: 30px;;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 /* ------------HOME: Behind the Scenes Section------------ */
