@@ -10,7 +10,7 @@ const Navbar = () => {
             <Container>
                 <NavbarComponent.Toggle aria-controls="responsive-navbar-nav" />
                 <NavbarComponent.Brand href="#home">
-                    <img src={Logo} className="logo-img d-inline-block align-top" alt="React Bootstrap logo"/>
+                    <img width="30%" src={Logo} className="logo-img d-inline-block align-top" alt="React Bootstrap logo"/>
                 </NavbarComponent.Brand>
                 <NavbarComponent.Collapse id="responsive-navbar-nav">
                     <Nav className="justify-content-end" as="ul">

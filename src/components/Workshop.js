@@ -1,7 +1,6 @@
 import React from 'react';
 import Workshop1 from '../images/workshop1.png';
 import { Card } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
 
 const Workshop = () => {
     return (
