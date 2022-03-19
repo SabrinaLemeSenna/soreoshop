@@ -1,30 +1,20 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux'
-import { addToCart } from './actions/cartActions'
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import Soreo from '../images/soreo.jpeg'
 
- class Aboutus extends Component{
-    handleClick = (id)=>{
-        this.props.addToCart(id); 
-    }
-    
-    render(){
-        return(
-            <div className="container">
-                Aboutus
-            </div>
-        )
-    }    
+const Aboutus = () => {
+    return (
+        <Container className='aboutus-container'>
+            <Row>
+                <Col className='d-flex justify-content-center'>
+                    <img src={Soreo} alt="s"></img>
+                </Col>
+                <Col>
+                    <h1>Hi! We are Soreo!</h1>
+                    <p>frnkgeriogje oslgoirfgjsdl nriugkerio</p>
+                </Col>
+            </Row>
+        </Container>
+    )
 }
-const mapStateToProps = (state)=>{
-    return {
-      items: state.items
-    }
-  }
-const mapDispatchToProps= (dispatch)=>{
-    
-    return{
-        addToCart: (id)=>{dispatch(addToCart(id))}
-    }
-}
-
-export default connect(mapStateToProps,mapDispatchToProps)(Aboutus)
+export default Aboutus;

@@ -5,7 +5,6 @@ import HandmadePottery from '../images/pottery_handmade.jpg';
 import Sabrina from '../images/sabrina.png';
 import { Container, Button, Row, Col} from 'react-bootstrap';
 import Workshop from './Workshop';
-import Footer from './Footer';
 
 const Home = () => {
     return(
@@ -66,7 +65,6 @@ const Home = () => {
                     </Col>
                 </Row>
             </Container>
-            <Footer />
         </Container>
     )
 }
