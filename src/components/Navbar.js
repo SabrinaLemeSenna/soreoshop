@@ -13,7 +13,7 @@ const Navbar = () => {
                     <img width="30%" src={Logo} className="logo-img d-inline-block align-top" alt="React Bootstrap logo"/>
                 </NavbarComponent.Brand>
                 <NavbarComponent.Collapse id="responsive-navbar-nav">
-                    <Nav className="justify-content-end" as="ul">
+                    <Nav as="ul">
                         <Nav.Item className='navitem' as="li">
                             <Nav.Link href="/">Home</Nav.Link>
                         </Nav.Item>

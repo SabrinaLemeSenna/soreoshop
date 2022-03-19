@@ -78,6 +78,11 @@
     list-style: none;
 }
 
+.white-footer {
+    background-color: white;
+    padding: 10px;
+}
+
 /* ------------Products------------ */
 
 .product-container {
