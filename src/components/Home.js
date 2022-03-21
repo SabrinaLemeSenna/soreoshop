@@ -11,7 +11,7 @@ const Home = () => {
         <Container fluid>
             <Carousel />
             <Container fluid className='best-seller-container'>
-                <Container fluid className='title-container'>
+                <Container fluid className='title-container-no-padding'>
                     <h1>Best Seller</h1>
                 </Container>
                 <Container fluid className='products-container d-flex justify-content-center justify-content-between'>
@@ -37,7 +37,7 @@ const Home = () => {
                 </Container>
             </Container>
             <Container fluid className='workshops-container'>
-                <Container className='title-container'>
+                <Container className='title-container-no-padding'>
                     <h1>Workshops & Events</h1>
                 </Container>
                 <Container className='workshop-container d-flex justify-content-center justify-content-between'>

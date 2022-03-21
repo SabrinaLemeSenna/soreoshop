@@ -1,6 +1,3 @@
-.card{
-    width: 300px;
-}
 .collection .collection-item{
     display: flex;
 }
@@ -27,6 +24,13 @@
     color: rgb(92,92,92,1);
     padding-top: 60px;
     padding-bottom: 40px;
+}
+
+.title-container-no-padding {
+    font-family: 'Cormorant Unicase', serif;
+    text-align: center;
+    color: rgb(92,92,92,1);
+    padding-top: 60px;
 }
 
 /* ------------COMPONENTS------------ */
@@ -177,13 +181,25 @@
 /* ------------SHOP------------ */
 
 .shop-container {
-    margin-top: 100px;
+    margin-top: 60px;
     padding: 60px;
     color: rgb(92,92,92,1);
 }
 
 .shop-container h1 {
     font-family: 'Cormorant Unicase', serif;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.dropdown-container-right {
+    text-align: end;
+}
+
+.card{
+    width: 300px;
+    margin: 50px;
+    margin-bottom: 50px;
 }
 
 /* ------------ABOUT US------------ */
