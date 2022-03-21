@@ -1,21 +1,5 @@
-.box{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap
-}
-.material-icons{
-    font-size: 2.4em;
-    cursor: pointer;
-}
 .card{
     width: 300px;
-}
-.card .card-image .card-title{
-    color: black;
-    font-weight: 400
-}
-.cart{
-    margin-top:40px;
 }
 .collection .collection-item{
     display: flex;
@@ -190,6 +174,18 @@
     margin-left: 13%;
 }
 
+/* ------------SHOP------------ */
+
+.shop-container {
+    margin-top: 100px;
+    padding: 60px;
+    color: rgb(92,92,92,1);
+}
+
+.shop-container h1 {
+    font-family: 'Cormorant Unicase', serif;
+}
+
 /* ------------ABOUT US------------ */
 
 .aboutus-container {
@@ -207,7 +203,22 @@
     font-family: 'Cormorant Unicase', serif;
 }
 
+.aboutus-container h3 {
+    font-family: 'Cormorant Unicase', serif;
+    text-align: center;
+    color: rgb(210,163,145,1);
+}
+
 .aboutus-container p {
     font-family: 'Darker Grotesque', serif;
-    font-size: 22px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* ------------CART------------ */
+
+.cart-container {
+    margin-top: 100px;
+    padding: 60px;
+    color: rgb(92,92,92,1);
 }

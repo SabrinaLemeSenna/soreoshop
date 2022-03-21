@@ -53,8 +53,8 @@ class Cart extends Component{
                 <p>Nothing.</p>
              )
        return(
-            <div className="container">
-                <div className="cart">
+            <div className="cart-container">
+                <div>
                     <h5>You have ordered:</h5>
                     <ul className="collection">
                         {addedItems}

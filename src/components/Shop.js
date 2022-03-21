@@ -30,9 +30,9 @@ import { Container } from 'react-bootstrap';
         })
 
         return(
-            <Container>
-                <h3 className="center">Our items</h3>
-                <div className="box">
+            <Container className='shop-container'>
+                <h1>Our Items</h1>
+                <div>
                     {itemList}
                 </div>
             </Container>
