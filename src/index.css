@@ -231,6 +231,19 @@
     text-align: justify;
 }
 
+/* ------------ABOUT US------------ */
+
+.workshop-page-container {
+    margin-top: 100px;
+    padding: 60px;
+    color: rgb(92,92,92,1);
+}
+
+.workshop-page-container h1 {
+    font-family: 'Cormorant Unicase', serif;
+    text-align: center;
+}
+
 /* ------------CART------------ */
 
 .cart-container {
