@@ -231,7 +231,7 @@
     text-align: justify;
 }
 
-/* ------------ABOUT US------------ */
+/* ------------WORKSHOP------------ */
 
 .workshop-page-container {
     margin-top: 100px;
@@ -242,6 +242,26 @@
 .workshop-page-container h1 {
     font-family: 'Cormorant Unicase', serif;
     text-align: center;
+}
+
+/* ------------CONTACT------------ */
+
+.contact-container {
+    margin-top: 100px;
+    color: rgb(92,92,92,1);
+}
+
+.contact-container h1 {
+    font-family: 'Cormorant Unicase', serif;
+    text-align: center;
+}
+
+.contact-container p {
+    text-align: center;
+    font-family: 'Darker Grotesque', serif;
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 /* ------------CART------------ */
